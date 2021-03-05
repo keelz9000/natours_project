@@ -1,0 +1,11 @@
+@use '../abstracts';
+
+.row {
+    max-width: abstracts.$grid-width;
+    background-color: #eee;
+    margin: 0 auto;
+    
+    &:not(:last-child) {
+        margin-bottom: abstracts.$gutter-vertical;
+    }
+}
