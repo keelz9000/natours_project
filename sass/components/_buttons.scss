@@ -59,6 +59,17 @@
     }
 
   }
+
+  &--green {
+    background-color: abstracts.$color-primary;
+    color: abstracts.$color-white;
+    font-size: 15px;
+
+    &--white::after {
+      background-color: abstracts.$color-white;
+    }
+
+  }
   
   &--animated {
     -webkit-animation: moveInBottom .5s ease-out .75s;
